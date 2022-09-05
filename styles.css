@@ -1,0 +1,56 @@
+*{
+    font-family: 'Lato', sans-serif;
+    /*outline: 1px solid black;*/
+    font-weight: bolder;
+}
+
+body {
+    animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+    from {background-color: rgb(201, 192, 255);}
+    to {background-color: blueviolet;}
+}
+
+header, section {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    width: 60%;
+}
+
+ul {
+    list-style-type: "\2705";
+}
+
+li {
+
+    padding-left: 1rem;
+    text-indent: -0.75rem;
+}
+
+.imagen {
+    width: 175px;
+    height: 200px;
+    margin-right: 16px;
+}
+
+footer {
+    text-align: center;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: blue;
+}
